@@ -13,8 +13,8 @@ class loginclass:
         time.sleep(4)
         self.driver.find_element(By.ID, password).send_keys("Welcome@l1")
         time.sleep(4)
-        self.driver.find_element(By.XPATH,'/html/body/div/div/div/div/div[2]/form/div[3]/button').click()
-        time.sleep(2)
+        # self.driver.find_element(By.XPATH,'/html/body/div/div/div/div/div[2]/form/div[3]/button').click()
+        # time.sleep(2)
 
 
 
